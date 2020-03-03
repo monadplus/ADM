@@ -1,0 +1,5 @@
+file:/home/arnau/MIRI/adm/adult.csv
+/home/arnau/MIRI/adm/adult.csv
+file:/home/arnau/MIRI/adm/Example%20Workflows/TheData/Credit/german-credit-scoring.csv
+/home/arnau/MIRI/adm/Example Workflows/TheData/Credit/german-credit-scoring.csv
+knime://knime.workflow/data.all

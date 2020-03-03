@@ -1,0 +1,79 @@
+
+{
+    "version": "4.1.1.v202002041125",
+    "created": "2020-02-12 08:20",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.base.node.io.filereader.FileReaderNodeFactory#File Reader",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 919,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.filter.nominal.NominalValueRowFilterNodeFactory#Nominal Value Row Filter"
+            },
+            {
+                "id": "org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory#Statistics",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.js.base.node.viz.plotter.scatterSelectionAppender.ScatterPlotNodeFactory#Scatter Plot",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 141,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot (local)",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 32,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot (local)"
+            },
+            {
+                "id": "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory#Rule-based Row Filter",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.nominal.NominalValueRowFilterNodeFactory#Nominal Value Row Filter",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 3209478,
+    "workflowsOpened": 0,
+    "remoteWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "launches": 1,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 3209478,
+    "crashes": 0,
+    "properlyShutDown": true
+}
